@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculadora</title>
+</head>
+    <body class="corpo">
+        <main class="bgmain">
+
+            <header class="titulo">
+                <h1>CALCULADORA IMC</h1>
+            </header>
+            <form action="submit">
+                <section class="input">
+                    <label for="peso"> Peso</label>
+                    <input type="number" name="peso" id="peso">
+                    <br>
+                    <label for="Altura"> Altura</label>
+                    <input type="number" name="altura" id="altura">
+                    <br>
+                    <button onclick="calcular()" class="button">Calcular</button>
+                    <p class="resultado"></p>
+                </section>
+            </form>
+        </main>
+
+        <table class="tabela" border="2">
+            <tr>
+                <th>Categoria</th>
+                <th>IMC</th>
+            </tr>
+                <tr>
+                <td>Abaixo do peso</td>
+                <td>Abaixo de 18,5</td>
+                </tr>
+
+                <tr>
+                <td id="pesso">Peso normal</td>
+                <td id="pesso">18,5 - 24,9</td>
+                </tr>
+
+                <tr>
+                <td>Sobrepeso</td>
+                <td>25 - 29,9</td>
+                </tr>
+         
+                 <tr>
+                <td>Obesidade grau 1</td>
+                <td>30 - 34,9</td>
+                </tr>
+        
+                <tr>
+                <td>Obesidade grau 2</td>
+                <td>35 - 39,9</td>
+                </tr>
+        
+                <tr>
+                <td>Obesidade grau 3</td>
+                <td>Maior ou igual 40</td>
+                </tr>
+        
+            </tr>
+        </table>
+        <script src="assets/script/script.js"></script>
+        <br>
+        <br>
+        <a id="info" href="pages/info.html">Saiba mais aqui.</a>
+    </body>
+</html>

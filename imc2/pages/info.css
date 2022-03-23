@@ -1,0 +1,41 @@
+.corpo {
+    border-radius: 750px;
+    margin: 0, auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(#0f2030, #37376b);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tabela {
+    color: black;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#pesso {
+    background-color: #000000;
+    color: azure;
+}
+.main {
+    background-color: rgb(13, 7, 49);
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+#link:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
